@@ -150,16 +150,20 @@ main {
 .header-section {
   padding: 40px 150px;
   display: flex;
-  /* justify-content: space-between; */
+  justify-content: space-between;
 }
 
 .headerInfo {
-  flex-basis: 54%;
+  flex-basis: 52%;
 }
 
 .headerImg {
-  flex-basis: 46%;
+  flex-basis: 35%;
   text-align: right;
+}
+
+picture .pic1 {
+  width: 375px;
 }
 
 .pageImage {
@@ -204,7 +208,7 @@ main {
 .sponsorgroup {
   display: flex;
   align-items: center;
-  margin-top: 10%;
+  margin-top: 22%;
 }
 
 .sponsorgroup img {
