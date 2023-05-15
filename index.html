@@ -19,28 +19,137 @@
   </head>
   <body>
     <main>
-      <nav>
-        <img src="./images/logo.svg" alt="logo" />
+      <nav class="menubar">
+        <img src="./images/logo.svg" alt="logo" class="logo" />
         <ul>
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Company</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-        <a href="#" class="login-btn">Login</a>
-        <a href="#" class="reg-btn">Register</a>
-      </nav>
-    </main>
-    Make remote work Get your team in sync, no matter your location. Streamline
-    processes, create team rituals, and watch productivity soar. Learn more
+          <li>
+            <a href="#"
+              >Features <img src="./images/icon-arrow-down.svg" alt="arrowicon"
+            /></a>
+            <div class="submenu">
+              <ul>
+                <li>
+                  <a href="#"
+                    ><span
+                      ><img src="./images/icon-todo.svg" alt="arrowicon"
+                    /></span>
+                    Todo List
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><span
+                      ><img src="./images/icon-calendar.svg" alt="arrowicon"
+                    /></span>
+                    Calendar</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><span
+                      ><img src="./images/icon-reminders.svg" alt="arrowicon"
+                    /></span>
+                    Reminders</a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><span
+                      ><img src="./images/icon-planning.svg" alt="arrowicon"
+                    /></span>
+                    Planning</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#"
+              >Company
+              <img
+                src="./images/icon-arrow-down.svg"
+                alt="arrowicon"
+                id="iconDown"
+            /></a>
+            <div class="submenu">
+              <ul>
+                <li>
+                  <a href="#">History</a>
+                </li>
+                <li>
+                  <a href="#">Our Team</a>
+                </li>
 
-    <footer>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
-      </div>
-    </footer>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">Careers </a>
+          </li>
+          <li>
+            <a href="#">About </a>
+          </li>
+          <img
+            src="./images/icon-close-menu.svg"
+            alt="closeIcon"
+            class="menuIcon closeImg"
+          />
+          <div class="buttonFrame">
+            <a href="#" class="login-btn">Login</a>
+            <a href="#" class="reg-btn">Register</a>
+          </div>
+        </ul>
+        <img
+          src="./images/icon-menu.svg"
+          alt="menuIcon"
+          class="menuIcon menuImg"
+        />
+      </nav>
+      <section>
+        <div class="header-section">
+          <div class="headerInfo">
+            <h1 class="header-text">Make<br />remote work</h1>
+            <p class="headerMsg">
+              Get your team in sync, no matter your location. Streamline
+              processes, create team rituals, and watch productivity soar.
+            </p>
+            <a href="#" class="learn-more-btn">Learn more</a>
+            <div class="sponsorgroup">
+              <img src="./images/client-databiz.svg" alt="" />
+              <img src="./images/client-audiophile.svg" alt="" />
+              <img src="./images/client-meet.svg" alt="" />
+              <img src="./images/client-maker.svg" alt="" />
+            </div>
+          </div>
+          <div class="headerImg">
+            <picture>
+              <source
+                media="(min-width: 600px)"
+                srcset="./images/image-hero-desktop.png"
+              />
+
+              <img
+                src="./images/image-hero-mobile.png"
+                alt="desktopImage"
+                style="width: 400px; height: auto"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">IFIDI W. EPHOD</a>.
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
   </body>
 </html>

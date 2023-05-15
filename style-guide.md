@@ -25,3 +25,16 @@ The designs were created to the following widths:
 
 - Family: [Epilogue](https://fonts.google.com/specimen/Epilogue)
 - Weights: 500, 700
+
+<picture>
+              <source
+                media="(min-width: 600px)"
+                srcset="./images/image-hero-desktop.png"
+              />
+
+              <img
+                src="./images/image-hero-mobile.png"
+                alt="desktopImage"
+                style="width: 400px; height: auto"
+              />
+            </picture>
